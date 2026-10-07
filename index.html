@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Think Before You React: Batman Mission Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gotham Mission Control</h1>
+        <p>Select the current threat level to trigger Batman's response system using conditional logic.</p>
+        
+        <div class="control-panel">
+            <button class="threat-btn" data-threat="high">High Threat: Joker Attack</button>
+            <button class="threat-btn" data-threat="medium">Medium Threat: Bank Heist</button>
+            <button class="threat-btn" data-threat="low">Low Threat: Routine Patrol</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="result-container" class="state-card">
+            <h2 id="state-title">System Ready</h2>
+            <p id="state-description">Please select a threat level above to evaluate Batman's tactical state.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>CCT360 Lab - Conditional Logic & State</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
